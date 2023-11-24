@@ -17,10 +17,7 @@ describe('Purchases on demoblaze page', () => {
       // Add product #1
       ProductList.pickOne(ProductList.nokiaLumia1500);
       ProductDetail.verifyProductAndAddToCart(ProductDetail.title, 'Nokia lumia 1520')
-
-      //NavBar.goTo(NavBar.cart)
-      //cy.get(Cart.totalAmount, { timeout: 5000 }).should('have.text', '820')
-      
+     
       // Go to home
       NavBar.goTo(NavBar.home)
 
